@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Selenium Test Suite" parallel="false">
+
+    <parameter name="platform" value="android"/>
+    <parameter name="deviceName" value="emulator-5554"/>
+    <parameter name="platformVersion" value="11"/>
+    <parameter name="appActivity" value="com.espn.score_center"/>
+    <parameter name="appPackage" value="com.espn.sportscenter.ui.EspnLaunchActivity"/>
+
+    <test name="Automation tests">
+        <classes>
+            <class name="com.espn.tests.LoginTest"/>
+        </classes>
+    </test>
+</suite>
