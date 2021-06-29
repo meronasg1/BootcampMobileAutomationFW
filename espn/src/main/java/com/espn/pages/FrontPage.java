@@ -11,4 +11,5 @@ public class FrontPage {
     public void clickOnLoginBtn(){
         logInBtn.click();
     }
+
 }
